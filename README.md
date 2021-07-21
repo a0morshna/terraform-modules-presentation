@@ -7,15 +7,15 @@ by Alexandra Morshna
 
 > -----
 
-![Image](https://github.com/a0morshna/terraform-modules-presentation/blob/main/slides/Terraform-Modules(1).jpg)
+![Image](https://github.com/a0morshna/terraform-modules-presentation/blob/main/slides/Terraform-Modules (1).jpg)
 
 > -----
 
-![Image](https://github.com/a0morshna/terraform-modules-presentation/blob/main/slides/Terraform-Modules(2).jpg)
+![Image](https://github.com/a0morshna/terraform-modules-presentation/blob/main/slides/Terraform-Modules (2).jpg)
 
 > -----
 
-![Image](https://github.com/a0morshna/terraform-modules-presentation/blob/main/slides/Terraform-Modules(3).jpg)
+![Image](https://github.com/a0morshna/terraform-modules-presentation/blob/main/slides/Terraform-Modules (3).jpg)
 
 > -----
 
