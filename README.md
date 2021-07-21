@@ -66,6 +66,43 @@ resource "google_compute_instance" "http_server" {
 
 ```
 
+### Create GCS bucket:
+
+> main.tf
+```
+
+resource "google_storage_bucket" "bucket" {
+  name                        = var.name
+  project                     = var.project_id
+
+  versioning {
+    enabled = var.versioning
+  }
+}
+
+```
+
+> version.tf
+```
+
+terraform {
+  required_version = ">= 0.13"
+  required_providers {
+
+    google = {
+      source  = "hashicorp/google"
+      version = "~> 3.53"
+    }
+  }
+
+  provider_meta "google" {
+    module_name = "blueprints/terraform/terraform-google-cloud-storage:simple_bucket/v2.1.0"
+  }
+
+}
+
+```
+
 > -----
 
 ##  Useful Links: 
